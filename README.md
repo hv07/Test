@@ -8,9 +8,9 @@ You need to have installed Java 11 at least on your environment and Maven at lea
 The menu on the console will appears:
 
 Please chose an option (type the number) for read the results of games
-
+\n
  1.- Enter the data
-
+\n
  2.- Exit
  
 Choose an option typing a number
