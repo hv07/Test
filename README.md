@@ -1,16 +1,16 @@
 # Execution
 You need to have installed Java 11 at least on your environment and Maven at least from the version 3.2.
 
-1.- On the directory "\Span\test\"  execute: "mvn clean package"
+1.- On the directory "\<your location>\test\"  execute: "mvn clean package"
 2.- Enter to "\target" directory 
 3.- Execute the App with the command: "java -jar spanTest.jar"
 
 The menu on the console will appears:
 
 Please chose an option (type the number) for read the results of games
-\n
+ 
  1.- Enter the data
-\n
+ 
  2.- Exit
  
 Choose an option typing a number
