@@ -25,7 +25,7 @@ public class ProcessGamesResultsMenu implements CommandLineRunner, GamesResultsM
     public void getResultsFromConsole() {
         boolean exit = false;
         Scanner scan = new Scanner(System.in);
-        List<String> games = new ArrayList<String>();
+        List<String> games = new ArrayList<>();
 
         log.info("******************** Type Match result ********************" );
 
@@ -43,13 +43,13 @@ public class ProcessGamesResultsMenu implements CommandLineRunner, GamesResultsM
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         log.info("******************** Welcome!! ******************** \n\n");
         Scanner sn = new Scanner(System.in);
         boolean exit = false;
         int option;
         while(!exit){
-            log.info("Please chose an option for read the results of games \n\n 1.- Enter the data \n\n 2.- Exit ");
+            log.info("Please chose an option (type the number) for read the results of games \n\n 1.- Enter the data \n\n 2.- Exit ");
             try{
                 option = sn.nextInt();
                 switch (option) {
